@@ -1,0 +1,32 @@
+// Colors - SportPro Theme
+// Paleta coherente con el sitio web SportPro
+
+$mk_color_brand: #0a3d1a;        // Verde oscuro SportPro (Brand)
+$mk_color_primary: #0f6b2e;      // Verde principal SportPro (Primary)
+
+$mk_color_success: #0f6b2e;      // Verde SportPro (Success)
+$mk_color_info: #17A2B8;         // Cyan (Info - contraste)
+$mk_color_warning: #ff6b35;      // Naranja acento SportPro (Warning)
+$mk_color_danger: #DC3545;       // Rojo estándar (Danger)
+
+// Override
+
+$o-community-color: $mk-color-brand;
+$o-enterprise-color: $mk-color-brand;
+$o-enterprise-action-color: $mk-color-primary;
+
+$o-brand-odoo: $mk-color-brand;
+$o-brand-primary: $mk-color-primary;
+
+$o-success: $mk-color-success;
+$o-info: $mk-color-info;
+$o-warning: $mk-color-warning;
+$o-danger: $mk-color-danger;
+
+$o-theme-text-colors: (
+    "primary": $mk-color-brand,
+    "success": $o-success,
+    "info": $o-info,
+    "warning": $o-warning,
+    "danger": $o-danger,
+);

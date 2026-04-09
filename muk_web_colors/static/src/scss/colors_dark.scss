@@ -1,0 +1,32 @@
+// Colors - SportPro Theme Dark Mode
+// Versiones brillantes de la paleta SportPro para buen contraste en fondo oscuro
+
+$mk_color_brand: #1a9950;        // Verde SportPro brillante (Brand) - oscurecido
+$mk_color_primary: #27b863;      // Verde brillante SportPro (Primary) - oscurecido
+
+$mk_color_success: #27b863;      // Verde brillante (Success)
+$mk_color_info: #6AB5FB;         // Cyan brillante (Info - mantener)
+$mk_color_warning: #ff8c5a;      // Naranja SportPro brillante (Warning)
+$mk_color_danger: #FF5757;       // Rojo brillante (Danger - mantener)
+
+// Override
+
+$o-community-color: $mk-color-brand;
+$o-enterprise-color: $mk-color-brand;
+$o-enterprise-action-color: $mk-color-primary;
+
+$o-brand-odoo: $mk-color-brand;
+$o-brand-primary: $mk-color-primary;
+
+$o-success: $mk-color-success;
+$o-info: $mk-color-info;
+$o-warning: $mk-color-warning;
+$o-danger: $mk-color-danger;
+
+$o-theme-text-colors: (
+    "primary": $mk-color-brand,
+    "success": $o-success,
+    "info": $o-info,
+    "warning": $o-warning,
+    "danger": $o-danger,
+);
